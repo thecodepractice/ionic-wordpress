@@ -1,23 +1,10 @@
-This is the Ionic 4 Project with wordpress posts
+# Wordpress with ionic
 
-Download the project
+In this project we will give you the following feature
 
-````
-git clone https://github.com/paradisetester/wp-with-ionic.git
-```````
-
-Move to the directory
-````````````
-cd wp-with-ionic
-````````````
-
-Install Packages
-```````````
-npm install
-``````
-
-Run project
-
-``````
-ionic serve
-``````
+  - Ionic web app with wordpress
+  - Pagination
+  - Load more most on scroll
+  - SCO meta tag
+  - PWA
+  - Bootstrap Modal POPUP
