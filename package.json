@@ -26,6 +26,7 @@
     "@ionic/angular": "^4.1.0",
     "cordova-browser": "6.0.0",
     "core-js": "^2.5.4",
+    "enhanced-resolve": "^4.1.1",
     "jw-angular-pagination": "^1.1.0",
     "ng2-bootstrap": "^1.6.3",
     "ngx-infinite-scroll": "^7.1.0",
