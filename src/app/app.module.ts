@@ -16,8 +16,7 @@ import { environment } from '../environments/environment';
 import { LocationStrategy, PathLocationStrategy, APP_BASE_HREF } from '@angular/common';
 import { AgmCoreModule } from '@agm/core';
 import { HtmlheadService } from '../providers/seo/seo';
-
-
+import { HttpModule } from '@angular/http';
 // import pagination component
 
 import { PaginationModule } from "ng2-bootstrap/pagination";
@@ -35,6 +34,7 @@ import { PaginationModule } from "ng2-bootstrap/pagination";
 	InfiniteScrollModule,
 	ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production }),
 	PaginationModule.forRoot(),
+	HttpModule,
   ],
   providers: [
     StatusBar,
